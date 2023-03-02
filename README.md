@@ -1,7 +1,12 @@
 # Automatic Water Dispenser
 ## Overview
-![](./attachments/Dispenser.mp4)
+![](/attachments/Dispenser.jpg)
+
+## Demonstration 
+![](/attachments/Dispenser.mp4)
+
 ## Requirements
+
 ### Hardware
 1. Arduino board
 1. Water pump
@@ -14,13 +19,15 @@
 1. Arduino USB cable
 1. Jumper cables
 1. Tools : Screw driver, gluegun, soldering iron etc...
+
 ### Software
 1. [Arduino IDE](https://www.arduino.cc/en/software/)
 
 ## Instructions
 Hardware assembly will be supervised by your teachers
-\
-Copy the following code to your arduino IDE
+
+Copy the following code to your IDE windows
+
 ```c++
 // C++ code
 //
@@ -65,6 +72,4 @@ void loop()
   }
   delay(10); // Delay a little bit to improve performance
 }
-
-
 ```
