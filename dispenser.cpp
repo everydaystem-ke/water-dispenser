@@ -1,5 +1,3 @@
-// C++ code
-//
 #define SIGNAL_PIN A5
 int value;
 long readUltrasonicDistance(int triggerPin, int echoPin)
@@ -25,7 +23,6 @@ void setup()
 
 void loop()
 {
-
   value = analogRead(SIGNAL_PIN); // read the analog value from sensor
   Serial.print("Sensor value: ");
   Serial.println(value);

@@ -24,13 +24,11 @@
 1. [Arduino IDE](https://www.arduino.cc/en/software/)
 
 ## Instructions
-Hardware assembly will be supervised by your teachers
+Hardware assembly will be supervised by your teachers in class.
 
 Copy the following code to your IDE windows
 
 ```c++
-// C++ code
-//
 #define SIGNAL_PIN A5
 int value;
 long readUltrasonicDistance(int triggerPin, int echoPin)
@@ -73,3 +71,11 @@ void loop()
   delay(10); // Delay a little bit to improve performance
 }
 ```
+
+Upload the code to your boards 
+
+If successfully uploaded device tests may now be conducted with the permission of your teacher.
+
+In case of any problem do not hesitate to ask for clarification
+
+Pull requests for new features using this hardware are welcome. Students are encouraged to participate and ask questions.
