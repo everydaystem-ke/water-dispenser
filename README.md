@@ -3,7 +3,7 @@
 ![](/attachments/Dispenser.jpg)
 
 ## Demonstration 
-![](/attachments/Dispenser.mp4)
+![](/attachments/Dispenser.gif)
 
 ## Requirements
 
